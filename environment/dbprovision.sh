@@ -16,6 +16,8 @@ sudo apt-get install mongodb-org -y
 #try to install individual packages if the above doesnt work:
 sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20
 
+
+
 #sudo rm /etc/mongod.conf
 #sudo ln -s /home/vagrant/environment/mongod.conf /etc/mongod.conf
 

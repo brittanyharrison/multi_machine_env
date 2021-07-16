@@ -29,6 +29,6 @@ sudo npm install ejs
 
 sudo npm install faker
 
-
+sudo node seeds/seed.js
 
 #npm start
