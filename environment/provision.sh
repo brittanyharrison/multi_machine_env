@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
     
 sudo apt-get update -y
@@ -29,6 +29,12 @@ sudo npm install ejs
 
 sudo npm install faker
 
-sudo node seeds/seed.js
+#sudo node seeds/seed.js
 
-#npm start
+#sed is an editor, -i is inserting, $:at thte end of file, a:appending
+sudo sed -i "$ a DB_HOST='mongodb://192.168.10.150:27017/posts'" /etc/environment
+
+
+cd /home/vagrant/environment/app
+
+npm start 
